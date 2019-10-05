@@ -1,0 +1,15 @@
+.item{
+    
+  
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+.parent{
+    border-radius: 20px;
+    width: 400px;
+  height: 300px;
+    border: 1px solid rgba(4, 132, 75, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}

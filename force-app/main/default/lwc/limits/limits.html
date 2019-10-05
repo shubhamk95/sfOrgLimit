@@ -1,0 +1,14 @@
+<template>
+    <div class="container">
+
+            <template for:each={limits} for:item="limit">
+                <div class="item" key={limit.name}>
+                        <c-limits-component name={limit.name} total-limit={limit.totalLimit} used-limit={limit.usedLimit} available-limit={limit.availableLimit}></c-limits-component>
+                        
+                </div>
+                    
+                </template>
+    </div>
+   
+
+</template>
